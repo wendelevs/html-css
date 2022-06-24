@@ -24,15 +24,7 @@
             background-color: gray;
         }
 
-        tbody th {
-            background-color: gray;
-        }
-
-        .categoria {
-            background-color: white;
-        }
-
-        #media-exatas, #media-humanas {
+        .medias {
             background-color: gray;
         }
     </style>
@@ -53,7 +45,7 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4" scope="rowgroup" class="categoria">Exatas</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -77,12 +69,12 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
+            <tr class="medias">
                 <th colspan="4" scope="rowgroup">Média de Exatas</th>
-                <td id="media-exatas">0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
-                <th rowspan="2" scope="rowgroup" class="categoria">Humanas</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -94,9 +86,9 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
+            <tr class="medias">
                 <th colspan="4" scope="rowgroup">Média de Humanas</th>
-                <td id="media-humanas">0.0</td>
+                <td>0.0</td>
             </tr>
         </tbody>
     </table>
